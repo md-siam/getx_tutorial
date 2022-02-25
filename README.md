@@ -1,16 +1,33 @@
-# getx_tutorial
+# GteX Tutorial - [Udemy](https://www.udemy.com/course/2022-dart-flutter-master-class-zero-to-hero/)
 
-A new Flutter project.
+<img align="right" src="assets/playstore.png" height="190"></img>
+Provider
 
-## Getting Started
+## YouTube
 
-This project is a starting point for a Flutter application.
+Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
-A few resources to get you started if this is your first Flutter project:
+## Table of Contents
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table align="center" style="margin: 0px auto;">
+  <tr>
+    <th>No.</th>
+    <th>Name</th>
+    <th>Tasks</th>
+    <th>Screenshots</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><a href="/lib/navigation/navigation.dart">Navigation</a></td>
+    <td>
+        Get.to()<br>
+        Get.back()<br>
+        Get.off()<br>
+        Get.ofAll()<br>
+        Get.toNamed()<br>
+        Get.offNamed()<br>
+        Get.offAllNamed()
+    </td>
+    <td><img align="right" src="screenshots/navigation.gif" height="350"></img></td>
+  </tr>
+</table>
