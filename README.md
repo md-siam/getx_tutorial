@@ -1,7 +1,8 @@
 # GteX Tutorial - [Udemy](https://www.udemy.com/course/2022-dart-flutter-master-class-zero-to-hero/)
 
 <img align="right" src="assets/playstore.png" height="190"></img>
-Provider
+GetX is one of the most popular state management solution in flutter.
+In addition to state management, GetX provides easy way to manage page routes.
 
 ## YouTube
 
