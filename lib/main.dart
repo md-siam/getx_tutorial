@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/navigation/navigation.dart';
+import 'routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'GetX Tutorial',
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: const GetNavigation(),
+      //home: const GetNavigation(),
+      //home: ReactiveStateManagement(),
+      home: const SimpleStateManagement(),
     );
   }
 }
