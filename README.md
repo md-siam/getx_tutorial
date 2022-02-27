@@ -19,7 +19,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
   </tr>
   <tr>
     <td>1</td>
-    <td><a href="/lib/navigation/navigation.dart">Navigation</a></td>
+    <td><a href="/lib/1_navigation/navigation.dart">Navigation</a></td>
     <td>
         Get.to()<br>
         Get.back()<br>
@@ -33,7 +33,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
   </tr>
   <tr>
     <td>2</td>
-    <td><a href="/lib/state_management/reactive/reactive_state_management.dart">Reactive State Management</a></td>
+    <td><a href="/lib/2_state_management/reactive/reactive_state_management.dart">Reactive State Management</a></td>
     <td>
         final name = ''.obs;<br>
         final isLogged = false.obs;<br>
@@ -49,7 +49,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
   </tr>
   <tr>
     <td>3</td>
-    <td><a href="/lib/state_management/simple/simple_state_management.dart">Simple State Management</a></td>
+    <td><a href="/lib/2_state_management/simple/simple_state_management.dart">Simple State Management</a></td>
     <td>
         class Controller extends GetxController {}<br>
         static Controller get to => Get.find();<br>
@@ -62,7 +62,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
   </tr>
   <tr>
     <td>4</td>
-    <td><a href="/lib/getx_controller/view.dart">Reactive State Controller</a></td>
+    <td><a href="/lib/3_getx_controller/view.dart">Reactive State Controller</a></td>
     <td>
         GetX<Controller>()<br>
         init: Controller(),<br>
@@ -88,7 +88,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
   </tr>
   <tr>
     <td>5</td>
-    <td><a href="/lib/getx_controller/detail_page.dart">Simple State Controller</a></td>
+    <td><a href="/lib/3_getx_controller/detail_page.dart">Simple State Controller</a></td>
     <td>
         final controller = Get.put(Controller());<br>
         GetBuilder<Controller>()<br>

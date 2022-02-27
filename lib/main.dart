@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       //home: const GetNavigation(),
       //home: ReactiveStateManagement(),
       //home: const SimpleStateManagement(),
+      //home:  GetXControllerExample(),
       home:  GetXControllerExample(),
     );
   }
