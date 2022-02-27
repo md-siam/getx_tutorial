@@ -19,7 +19,7 @@ class Controller extends GetxController {
   void decrement() {
     counter--;
     // use update() to update counter variable
-    // on UI when increment be called
+    // on UI when decrement be called
     update();
   }
 }

@@ -60,4 +60,57 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
     </td>
     <td><img align="right" src="screenshots/simple_state_management.gif" height="350"></img></td>
   </tr>
+  <tr>
+    <td>4</td>
+    <td><a href="/lib/getx_controller/view.dart">Reactive State Controller</a></td>
+    <td>
+        GetX<Controller>()<br>
+        init: Controller(),<br>
+        builder: (controller) => Text()<br><br>
+        In 'Controller' class:<br>
+        final count = 0.obs;<br>
+        &nbsp;&nbsp; void increment() {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; count.value++;<br>
+        &nbsp;&nbsp; }<br><br>
+        &nbsp;&nbsp; void clearCount() {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; count.value = 0;<br>
+        &nbsp;&nbsp; }<br><br>
+        &nbsp;&nbsp; void onInit() { {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; super.onInit();<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; ever(count, (_));<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; everAll([count], (_));<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; once(count, (_));<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; debounce(count, (_));<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; interval(count, (_))<br>
+        &nbsp;&nbsp; }
+    </td>
+    <td><img align="right" src="screenshots/reactive_state_controller.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><a href="/lib/getx_controller/detail_page.dart">Simple State Controller</a></td>
+    <td>
+        final controller = Get.put(Controller());<br>
+        GetBuilder<Controller>()<br>
+        id: 'count1',<br>
+        builder: (controller) =>Text()<br><br>
+        In 'Controller' class:<br>
+        int count = 0;<br>
+        &nbsp;&nbsp; void increment() {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; count++;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; update();<br>
+        &nbsp;&nbsp; }<br><br>
+        &nbsp;&nbsp; void clearCount() {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; count = 0;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; update();<br>
+        &nbsp;&nbsp; }<br>
+    </td>
+    <td><img align="right" src="screenshots/simple_state_controller.gif" height="350"></img></td>
+  </tr>
+
 </table>
+
+## Life Cycle of GetX Controller
+
+<img align="center" src="assets/images/getx_controller_lifecycle.png"></img>
+<img align="center" src="assets/images/getx_controller_detail_page.png"></img>

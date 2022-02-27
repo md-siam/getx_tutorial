@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       //home: const GetNavigation(),
       //home: ReactiveStateManagement(),
-      home: const SimpleStateManagement(),
+      //home: const SimpleStateManagement(),
+      home:  GetXControllerExample(),
     );
   }
 }
