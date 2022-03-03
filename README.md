@@ -109,7 +109,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
   </tr>
   <tr>
     <td>6</td>
-    <td><a href="/lib/1_navigation/navigation.dart">Dependency Management</a></td>
+    <td><a href="/lib/4_dependency_management/view.dart">Dependency Management</a></td>
     <td>
         Instancing methods<br>
         &nbsp;&nbsp;Get.put()<br>
@@ -135,6 +135,26 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
     </td>
     <td><img align="right" src="screenshots/dependency_management.gif" height="350"></img></td>
   </tr>
+  <tr>
+    <td>7</td>
+    <td><a href="/lib/5_translations/translations_example.dart">Internationalization</a></td>
+    <td>
+        Custom class<br>
+        &nbsp;&nbsp;@override<br>
+        &nbsp;&nbsp;Map< String, Map< String, String>> get keys<br><br>
+        tr > Text('key'.tr)<br><br>
+        @key > trParams({'key':'value'})<br><br>
+        translations<br>
+        &nbsp;&nbsp;Custom class that extends Translations<br><br>
+        locale<br>
+        &nbsp;&nbsp;Locale()<br>
+        &nbsp;&nbsp;Get.deviceLocale()<br>
+        &nbsp;&nbsp;Get.updateLocale()<br><br>
+        fallbackLocale<br>
+        &nbsp;&nbsp;Locale()<br>
+    </td>
+    <td><img align="right" src="screenshots/internationalization.gif" height="350"></img></td>
+  </tr>
 
 </table>
 
@@ -146,4 +166,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 ## Dependency Management using GetX
 
 <img align="center" src="assets/images/getx_dependency_management.png"></img>
-<img align="center" src="assets/images/getx_dependency_management_SmartManagement.png"></img>
+
+## Internationalization/Translations using GetX
+
+<img align="center" src="assets/images/getx_internationalization.png"></img>

@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
       //home: const SimpleStateManagement(),
       //home:  GetXControllerExample(),
       // home:  GetXControllerExample(),
-      home: DependencyManagementExample(),
+      //home: DependencyManagementExample(),
+      home: const TranslationExample(),
     );
   }
 }
