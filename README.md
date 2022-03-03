@@ -69,20 +69,20 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
         builder: (controller) => Text()<br><br>
         In 'Controller' class:<br>
         final count = 0.obs;<br>
-        &nbsp;&nbsp; void increment() {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; count.value++;<br>
-        &nbsp;&nbsp; }<br><br>
-        &nbsp;&nbsp; void clearCount() {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; count.value = 0;<br>
-        &nbsp;&nbsp; }<br><br>
-        &nbsp;&nbsp; void onInit() { {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; super.onInit();<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; ever(count, (_));<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; everAll([count], (_));<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; once(count, (_));<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; debounce(count, (_));<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; interval(count, (_))<br>
-        &nbsp;&nbsp; }
+         &nbsp;&nbsp; void increment() {<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; count.value++;<br>
+         &nbsp;&nbsp; }<br><br>
+         &nbsp;&nbsp; void clearCount() {<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; count.value = 0;<br>
+         &nbsp;&nbsp; }<br><br>
+         &nbsp;&nbsp; void onInit() { {<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; super.onInit();<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; ever(count, (_));<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; everAll([count], (_));<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; once(count, (_));<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; debounce(count, (_));<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; interval(count, (_))<br>
+         &nbsp;&nbsp; }
     </td>
     <td><img align="right" src="screenshots/reactive_state_controller.gif" height="350"></img></td>
   </tr>
@@ -96,14 +96,14 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
         builder: (controller) =>Text()<br><br>
         In 'Controller' class:<br>
         int count = 0;<br>
-        &nbsp;&nbsp; void increment() {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; count++;<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; update();<br>
-        &nbsp;&nbsp; }<br><br>
-        &nbsp;&nbsp; void clearCount() {<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; count = 0;<br>
-        &nbsp;&nbsp;&nbsp;&nbsp; update();<br>
-        &nbsp;&nbsp; }<br>
+         &nbsp;&nbsp; void increment() {<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; count++;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; update();<br>
+         &nbsp;&nbsp; }<br><br>
+         &nbsp;&nbsp; void clearCount() {<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; count = 0;<br>
+         &nbsp;&nbsp;&nbsp;&nbsp; update();<br>
+         &nbsp;&nbsp; }<br>
     </td>
     <td><img align="right" src="screenshots/simple_state_controller.gif" height="350"></img></td>
   </tr>
@@ -112,26 +112,26 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
     <td><a href="/lib/4_dependency_management/view.dart">Dependency Management</a></td>
     <td>
         Instancing methods<br>
-        &nbsp;&nbsp;Get.put()<br>
-        &nbsp;&nbsp;Get.lazyPut()<br>
-        &nbsp;&nbsp;Get.putAsync()<br>
-        &nbsp;&nbsp;Get.create()<br>
-        &nbsp;&nbsp;Get.delete()<br><br>
+         &nbsp;&nbsp;Get.put()<br>
+         &nbsp;&nbsp;Get.lazyPut()<br>
+         &nbsp;&nbsp;Get.putAsync()<br>
+         &nbsp;&nbsp;Get.create()<br>
+         &nbsp;&nbsp;Get.delete()<br><br>
         Find controller<br>
-        &nbsp;&nbsp;final controller = Get.find< Controller>();<br>
-        &nbsp;&nbsp;Controller controller = Get.find();<br>
+         &nbsp;&nbsp;final controller = Get.find< Controller>();<br>
+         &nbsp;&nbsp;Controller controller = Get.find();<br>
         Alternate controller<br>
-        &nbsp;&nbsp;Get.replace()<br>
-        &nbsp;&nbsp;Get.lazyReplace()<br><br>
+         &nbsp;&nbsp;Get.replace()<br>
+         &nbsp;&nbsp;Get.lazyReplace()<br><br>
         Binding<br>
-        &nbsp;&nbsp;void dependency(){}<br>
-        &nbsp;&nbsp;Named route > getPages > BindingBuilder() > void Function<br>
-        &nbsp;&nbsp;Named route<br>
-        &nbsp;&nbsp;initialBinding<br><br>
+         &nbsp;&nbsp;void dependency(){}<br>
+         &nbsp;&nbsp;Named route > getPages > BindingBuilder() > void Function<br>
+         &nbsp;&nbsp;Named route<br>
+         &nbsp;&nbsp;initialBinding<br><br>
         SmartManagement<br>
-        &nbsp;&nbsp;✰ full<br>
-        &nbsp;&nbsp;onlyBuilder<br>
-        &nbsp;&nbsp;keepFactory<br>
+         &nbsp;&nbsp;✰ full<br>
+         &nbsp;&nbsp;onlyBuilder<br>
+         &nbsp;&nbsp;keepFactory<br>
     </td>
     <td><img align="right" src="screenshots/dependency_management.gif" height="350"></img></td>
   </tr>
@@ -140,20 +140,35 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
     <td><a href="/lib/5_translations/translations_example.dart">Internationalization</a></td>
     <td>
         Custom class<br>
-        &nbsp;&nbsp;@override<br>
-        &nbsp;&nbsp;Map< String, Map< String, String>> get keys<br><br>
+         &nbsp;&nbsp;@override<br>
+         &nbsp;&nbsp;Map< String, Map< String, String>> get keys<br><br>
         tr > Text('key'.tr)<br><br>
         @key > trParams({'key':'value'})<br><br>
         translations<br>
-        &nbsp;&nbsp;Custom class that extends Translations<br><br>
+         &nbsp;&nbsp;Custom class that extends Translations<br><br>
         locale<br>
-        &nbsp;&nbsp;Locale()<br>
-        &nbsp;&nbsp;Get.deviceLocale()<br>
-        &nbsp;&nbsp;Get.updateLocale()<br><br>
+         &nbsp;&nbsp;Locale()<br>
+         &nbsp;&nbsp;Get.deviceLocale()<br>
+         &nbsp;&nbsp;Get.updateLocale()<br><br>
         fallbackLocale<br>
-        &nbsp;&nbsp;Locale()<br>
+         &nbsp;&nbsp;Locale()<br>
     </td>
     <td><img align="right" src="screenshots/internationalization.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td><a href="/lib/6_themes/themes_example.dart">Change Theme</a></td>
+    <td>
+        Create theme file<br><br>
+        Config lightTheme & darkTheme<br><br>
+        Change theme dynamically<br>
+         &nbsp;&nbsp;Get.isDarkMode > bool<br>
+         &nbsp;&nbsp;Get.changeThemeMode()<br>
+         &nbsp;&nbsp;Get.changeTheme()<br><br>
+        Store them in local storage<br>
+         &nbsp;&nbsp;GetStorage() > read() & write()<br>
+    </td>
+    <td><img align="right" src="screenshots/change_theme.gif" height="350"></img></td>
   </tr>
 
 </table>
