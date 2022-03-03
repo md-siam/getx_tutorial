@@ -107,6 +107,34 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
     </td>
     <td><img align="right" src="screenshots/simple_state_controller.gif" height="350"></img></td>
   </tr>
+  <tr>
+    <td>6</td>
+    <td><a href="/lib/1_navigation/navigation.dart">Dependency Management</a></td>
+    <td>
+        Instancing methods<br>
+        &nbsp;&nbsp;Get.put()<br>
+        &nbsp;&nbsp;Get.lazyPut()<br>
+        &nbsp;&nbsp;Get.putAsync()<br>
+        &nbsp;&nbsp;Get.create()<br>
+        &nbsp;&nbsp;Get.delete()<br><br>
+        Find controller<br>
+        &nbsp;&nbsp;final controller = Get.find< Controller>();<br>
+        &nbsp;&nbsp;Controller controller = Get.find();<br>
+        Alternate controller<br>
+        &nbsp;&nbsp;Get.replace()<br>
+        &nbsp;&nbsp;Get.lazyReplace()<br><br>
+        Binding<br>
+        &nbsp;&nbsp;void dependency(){}<br>
+        &nbsp;&nbsp;Named route > getPages > BindingBuilder() > void Function<br>
+        &nbsp;&nbsp;Named route<br>
+        &nbsp;&nbsp;initialBinding<br><br>
+        SmartManagement<br>
+        &nbsp;&nbsp;✰ full<br>
+        &nbsp;&nbsp;onlyBuilder<br>
+        &nbsp;&nbsp;keepFactory<br>
+    </td>
+    <td><img align="right" src="screenshots/dependency_management.gif" height="350"></img></td>
+  </tr>
 
 </table>
 
@@ -114,3 +142,8 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
 <img align="center" src="assets/images/getx_controller_lifecycle.png"></img>
 <img align="center" src="assets/images/getx_controller_detail_page.png"></img>
+
+## Dependency Management using GetX
+
+<img align="center" src="assets/images/getx_dependency_management.png"></img>
+<img align="center" src="assets/images/getx_dependency_management_SmartManagement.png"></img>

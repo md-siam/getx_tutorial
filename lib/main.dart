@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
       //home: ReactiveStateManagement(),
       //home: const SimpleStateManagement(),
       //home:  GetXControllerExample(),
-      home:  GetXControllerExample(),
+      // home:  GetXControllerExample(),
+      home: DependencyManagementExample(),
     );
   }
 }
