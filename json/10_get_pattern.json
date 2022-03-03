@@ -1,0 +1,115 @@
+{
+    "GetX": {
+        "Design Pattern": {
+            "MVC": {
+                "Model": {
+                    "handles data logic": "",
+                    "interests with database": ""
+                },
+                "Controller": {
+                    "handles requests flow by user": ""
+                },
+                "View": {
+                    "handles data presentation": "",
+                    "dynamic rendered": ""
+                }
+            }
+        },
+        "Best Practices": {
+            "app": {
+                "data": {
+                    "enums": "",
+                    "services": {
+                        "service.dart": "",
+                        "repository.dart": ""
+                    },
+                    "providers": {
+                        "api_provider.dart": "",
+                        "db_provider.dart": "",
+                        "storage_provider.dart": ""
+                    },
+                    "modules": ""
+                },
+                "modules": {
+                    "home": {
+                        "home_view.dart": "",
+                        "home_controller.dart": "",
+                        "home_binding.dart": "",
+                        "home_repository.dart": "",
+                        "widgets": ""
+                    },
+                    "detail": ""
+                },
+                "widgets": "",
+                "routes": {
+                    "routes.dart": "",
+                    "pages.dart": ""
+                },
+                "core": {
+                    "views": {
+                        "strings.dart": "",
+                        "colors.dart": "",
+                        "languages": {
+                            "en.dart": "",
+                            "bn.dart": ""
+                        }
+                    },
+                    "theme": {
+                        "text_theme.dart": "",
+                        "button_theme.dart": ""
+                    },
+                    "utils": {
+                        "keys.dart": "",
+                        "helpers.dart": ""
+                    }
+                }
+            },
+            "main.dart": ""
+        },
+        "Command Line Interface (CLI)": {
+            "Install": {
+                "flutter pub global activate get_cli": ""
+            },
+            "Config System Path": {
+                "MacOS": {
+                    "open -t ~/.zshrc": "",
+                    "export PATH='$PATH':'$HOME/.pub-cache/bin'": "",
+                    "source ~/.zshrc": "or reopen the terminal"
+                },
+                "Windows": {
+                    "Set Environment Variable": ""
+                }
+            },
+            "Project": {
+                "get create project:my_project": ""
+            },
+            "Page": {
+                "get create page:home": ""
+            },
+            "View": {
+                "get create view:dialog_view on home": ""
+            },
+            "Controller": {
+                "get create controller:dialog_controller on home": ""
+            },
+            "Provider": {
+                "get create provider:user on home": ""
+            },
+            "Localization": {
+                "get generate locales assets/locales": "translation file in json format"
+            },
+            "Model": {
+                "Model with provider": {
+                    "get generate model on home with assets/models/user.json": ""
+                },
+                "Model without provider": {
+                    "get generate model on home with assets/model/user.json --skipProvider": ""
+                }
+            },
+            "Install/Remove third party library": {
+                "get install http": "",
+                "get remove http": ""
+            }
+        }
+    }
+}
