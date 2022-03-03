@@ -1,0 +1,28 @@
+{
+  "GetX Controller": {
+    "Controller Class": "",
+    "Life Cycle": {
+      "onInit": {
+        "ever": "",
+        "everAll": "",
+        "once": "",
+        "debounce": "",
+        "interval": ""
+      },
+      "onReady": "d",
+      "onClose": "d"
+    },
+    "Unique IDs": {
+      "GetBuilder": {
+        "id": "",
+        "update(['id'])": ""
+      }
+    },
+    "Home: GetMaterialController": {
+      "Detail Page: Controller": {
+        "Next Page": "Get.to",
+        "Next Page: Controller": "Get.off"
+      }
+    }
+  }
+}

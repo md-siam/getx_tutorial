@@ -1,0 +1,40 @@
+{
+    "Dependency Management": {
+        "Instancing methods": {
+            "Get.put()": "",
+            "Get.lazyPut()": "",
+            "Get.putAsync()": "",
+            "Get.create()": {
+                "builder": "any Class Function()",
+                "tag": "String?",
+                "permanent": "bool default=true"
+            },
+            "Get.delete()": ""
+        },
+        "Find controller": {
+            "final controller": "Get.find<Controller>()",
+            "Controller controller": "Get.find()"
+        },
+        "Alternate controller": {
+            "Get.replace()": "",
+            "Get.lazyReplace()": ""
+        },
+        "Binding": {
+            "void Dependency(){}": "@override",
+            "Named route": {
+                "getPages": {
+                    "BindingsBuilder()": {
+                        "void Function()": ""
+                    }
+                }
+            },
+            "Normal router": "",
+            "initialBinding": ""
+        },
+        "SmartManagement": {
+            "✰ full": "Dispose classes that are not being used and were not set to be permanent",
+            "onlyBuilder": "No permission to dispose classes that are using Get.put & Get.putAsync",
+            "keepFactory": "Save in factory, will recreate the dependency when it need again"
+        }
+    }
+}
