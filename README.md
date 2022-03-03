@@ -169,4 +169,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
 ## Internationalization/Translations using GetX
 
+For language code: `http://lingoes.net/en/translator/langcode.htm` <br>
+For language code: `https://www.science.co.il/language/Codes.php`<br>
+
 <img align="center" src="assets/images/getx_internationalization.png"></img>
