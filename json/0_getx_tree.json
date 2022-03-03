@@ -190,6 +190,68 @@
                         "write()": ""
                     }
                 }
+            },
+            "GetxService": {
+                "Life cycle | Can't remove from memory": {
+                    "onInit()": "",
+                    "onReady()": "",
+                    "onClose": ""
+                },
+                "Usage": {
+                    "Custom class extends GetxService": {
+                        "ApiService": "",
+                        "StorageService": "",
+                        "CacheService": ""
+                    }
+                },
+                "remove": {
+                    "Get.reset()": ""
+                }
+            },
+            "GetView": {
+                "Stateless widget has a `getter` controller for a registered Controller": "",
+                "Extends GetView<ControllerType>": ""
+            },
+            "GetWidget": {
+                "Get.create()": "Create different instance when using Get.find()",
+                "Usage": {
+                    "Cart | Real-world Shopping Cart": {
+                        "Cart View": "",
+                        "Cart Controller": "",
+                        "Item": {
+                            "Item View": "",
+                            "Item Model": "",
+                            "Item Controller": ""
+                        }
+                    }
+                }
+            },
+            "GetConnect": {
+                "Usage": {
+                    "User": {
+                        "User View": "",
+                        "User Controller": {
+                            "User Provider | Provide Restful API communication": {
+                                "Configuration": {
+                                    "Default": {
+                                        "get()": "",
+                                        "post()": "",
+                                        "put()": "",
+                                        "delete()": ""
+                                    },
+                                    "Customs": {
+                                        "httpClient.baseUrl": "",
+                                        "httpClient.defaultDecoder": "",
+                                        "httpClient.addRequestModifier": "",
+                                        "httpClient.addRespondModifier": ""
+                                    }
+                                }
+                            }
+                        },
+                        "User Bindings": "",
+                        "User Model": ""
+                    }
+                }
             }
         }
     }

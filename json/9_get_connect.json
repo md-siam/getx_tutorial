@@ -1,0 +1,31 @@
+{
+    "Utils": {
+        "GetConnect": {
+            "Usage": {
+                "User": {
+                    "User View": "",
+                    "User Controller": {
+                        "User Provider | Provide Restful API communication": {
+                            "Configuration": {
+                                "Default": {
+                                    "get()": "",
+                                    "post()": "",
+                                    "put()": "",
+                                    "delete()": ""
+                                },
+                                "Customs": {
+                                    "httpClient.baseUrl": "",
+                                    "httpClient.defaultDecoder": "",
+                                    "httpClient.addRequestModifier": "",
+                                    "httpClient.addRespondModifier": ""
+                                }
+                            }
+                        }
+                    },
+                    "User Bindings": "",
+                    "User Model": ""
+                }
+            }
+        }
+    }
+}

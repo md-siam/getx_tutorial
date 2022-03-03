@@ -1,0 +1,25 @@
+{
+    "Utils": {
+        "GetxService": {
+            "Life cycle | Can't remove from memory": {
+                "onInit()": "",
+                "onReady()": "",
+                "onClose": ""
+            },
+            "Usage": {
+                "Custom class extends GetxService": {
+                    "APIService": "",
+                    "StorageService": "",
+                    "CacheService": ""
+                }
+            },
+            "remove": {
+                "Get.reset()": ""
+            }
+        },
+        "GetView": {
+            "Stateless widget has a `getter` controller for a registered Controller": "",
+            "Extends GetView<ControllerType>": ""
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Utils": {
+        "GetWidget": {
+            "Get.create()": "Create different instance when using Get.find()",
+            "Usage": {
+                "Cart | Real-world Shopping Cart": {
+                    "Cart View": "",
+                    "Cart Controller": "",
+                    "Item": {
+                        "Item View": "",
+                        "Item Model": "",
+                        "Item Controller": ""
+                    }
+                }
+            }
+        }
+    }
+}
