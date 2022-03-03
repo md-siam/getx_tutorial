@@ -1,0 +1,36 @@
+{
+    "Utils": {
+        "Internationalization": {
+            "Custom class | Extends Translations": "Map<String, Map<String, String>> get keys",
+            "tr | Specific ket that will be translated": "Text('key'.tr)",
+            "@key | Translation with parameters": "trParams({'key': 'value'})",
+            "translations": "Custom class that extends Translations",
+            "locale": {
+                "Locale()": "GetMaterialApp",
+                "Get.deviceLocal | System locale": "GetMaterialApp",
+                "get.updateLocale()": "GetMaterialApp"
+            },
+            "fallbackLocale": {
+                "Locale()": "GetMaterialApp"
+            }
+        },
+        "Theme": {
+            "Create theme file": "Include light theme & dark theme",
+            "Config light theme & datk theme": "GetMaterialApp",
+            "Change theme dynamically": {
+                "Get.isDarkMode": "bool",
+                "Get.changeThemeMode()": {
+                    "ThemeMode.light": "ThemeMode",
+                    "ThemeMode.dark": "ThemeMode"
+                },
+                "Get.changeTheme()": "ThemeMode"
+            },
+            "Store theme in local storage": {
+                "GetStorage()": {
+                    "read()": "",
+                    "write()": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,196 @@
+{
+    "GetX": {
+        "Route Management": {
+            "Navigation without Named Routes": {
+                "Get.to(NextScreen())": "Tips:()=>NextPage() | GetMaterialApp",
+                "Get.back()": "GetMaterialApp",
+                "Get.off(NextScreen())": "GetMaterialApp",
+                "Get.offAll(NextScreen())": "GetMaterialApp"
+            },
+            "Navigation with Named Routes": {
+                "Get.toNamed(NextScreen())": "GetMaterialApp",
+                "Get.back()": "GetMaterialApp",
+                "Get.offNamed(NextScreen())": "GetMaterialApp",
+                "Get.offAllNamed(NextScreen())": "GetMaterialApp"
+            },
+            "Argument in both Routes": {
+                "Get.arguments": "dynamic | GetMaterialApp"
+            },
+            "Parameter in Named Routes": {
+                "Dynamic urls links": {
+                    "/next?id=123&name=Ruize": {
+                        "Get.parameters['id']": "String",
+                        "Get.parameters['name']": "String"
+                    },
+                    "/next/:id": {
+                        "/next/123": {
+                            "Get.parameters['id']": "String"
+                        }
+                    }
+                }
+            },
+            "Middleware": {
+                "routingCallback": ""
+            }
+        },
+        "State Management": {
+            "Simple State Management": {
+                "Declare a controller Class: extends GetxController": {
+                    "update()": "Call it after update your state"
+                }
+            },
+            "✰ Reactive State Management": {
+                "Declare a Reactive Variable: Object": {
+                    "Rx(Type)": {
+                        "final name = RxString('');": "Assess its value by using .value",
+                        "final isLogged = Rxbool(false);": "Assess its value by using .value",
+                        "final count = RxInt(0);": "Assess its value by using .value",
+                        "final balance = RxDouble(0.0);": "Assess its value by using .value",
+                        "final items = RxList<String>([]);": "Assess its value by using .value",
+                        "final myMap = RxMap<String, int>({});": "Assess its value by using .value"
+                    },
+                    "Rx<Type>": {
+                        "final name = Rx<String>('');": "Assess its value by using .value",
+                        "final isLogged = Rx<bool>(false);": "Assess its value by using .value",
+                        "final count = Rx<int>(0);": "Assess its value by using .value",
+                        "final balance = Rx<double>(0.0);": "Assess its value by using .value",
+                        "final items = Rx<List<String>>([]);": "Assess its value by using .value",
+                        "final myMap = Rx<Map<String, int>>({});": "Assess its value by using .value",
+                        "final user = Rx<User>(User())": "Custom class"
+                    },
+                    ".obs": {
+                        "final name = ''.obs;": "Assess its value by using .value",
+                        "final isLogged = false.obs;": "Assess its value by using .value",
+                        "final count = 0.obs;": "Assess its value by using .value",
+                        "final balance = 0.0.obs;": "Assess its value by using .value",
+                        "final number = 0.obs;": "Assess its value by using .value",
+                        "final items = <String>[].obs;": "Assess its value by using .value",
+                        "final myMap = <String, int>{}.obs;": "Assess its value by using .value",
+                        "final user = User().obs;": "Custom class"
+                    }
+                }
+            },
+            "Usage": {
+                "Obx(() => Widget)": "Widget now become 'Observer'",
+                "GetX<Controller>": "Must contain 'Observer' variable",
+                "GetBuilder<Controller>": {
+                    "init": "Controller?",
+                    "initState": "void Function(GetBuilderState<Controller>)?",
+                    "dispose": "void Function(GetBuilderState<Controller>)?",
+                    "builder": "Widget Function(Controller)"
+                }
+            }
+        },
+        "GetX Controller": {
+            "Controller Class": "Extends GetxController",
+            "Life Cycle": {
+                "onInit": {
+                    "ever": "Workers",
+                    "everAll": "Workers",
+                    "once": "Workers",
+                    "debounce": "Workers",
+                    "interval": "Workers"
+                },
+                "onReady": "",
+                "onClose": {
+                    "Home: GetMaterialController": {
+                        "Detail Page: Controller": {
+                            "Next Page": "Get.to",
+                            "Next Page: Controller": "Get.off"
+                        }
+                    }
+                }
+            },
+            "Unique IDs": {
+                "GetBuilder": {
+                    "id": "",
+                    "update(['id'])": ""
+                }
+            }
+        },
+        "Dependency Management": {
+            "Instancing methods": {
+                "Get.put() | Singleton": {
+                    "dependency": "any Class",
+                    "tag": "String?",
+                    "permanent": "bool, default = false"
+                },
+                "Get.lazyPut() | Lazy create instances when needed": {
+                    "dependency": "any Class",
+                    "tag": "String?",
+                    "fenix": "bool, default = false"
+                },
+                "Get.putAsync()": {
+                    "builder": "Future<any Class> Function()",
+                    "tag": "String?",
+                    "permanent": "bool, default = false"
+                },
+                "Get.create() | better to use together with GetWidget": {
+                    "builder": "any Class Function()",
+                    "tag": "String?",
+                    "permanent": "bool default = true"
+                },
+                "Get.delete()": ""
+            },
+            "Find controller": {
+                "final controller": "Get.find<Controller>()",
+                "Controller controller": "Get.find()"
+            },
+            "Alternate controller": {
+                "Get.replace()": "",
+                "Get.lazyReplace()": ""
+            },
+            "Binding | Extends Bindings class": {
+                "void Dependency(){}": "@override",
+                "Named route": {
+                    "getPages": {
+                        "BindingsBuilder() | Bindings": {
+                            "void Function()": ""
+                        }
+                    }
+                },
+                "Normal router": "",
+                "initialBinding": ""
+            },
+            "SmartManagement": {
+                "✰ full": "Dispose classes that are not being used and were not set to be permanent",
+                "onlyBuilder": "No permission to dispose classes that are using Get.put & Get.putAsync",
+                "keepFactory": "Save in factory, will recreate the dependency when it need again"
+            }
+        },
+        "Utils": {
+            "Internationalization": {
+                "Custom class | Extends Translations": "Map<String, Map<String, String>> get keys",
+                "tr | Specific ket that will be translated": "Text('key'.tr)",
+                "@key | Translation with parameters": "trParams({'key': 'value'})",
+                "translations": "Custom class that extends Translations",
+                "locale": {
+                    "Locale()": "GetMaterialApp",
+                    "Get.deviceLocal | System locale": "GetMaterialApp",
+                    "get.updateLocale()": "GetMaterialApp"
+                },
+                "fallbackLocale": {
+                    "Locale()": "GetMaterialApp"
+                }
+            },
+            "Theme": {
+                "Create theme file": "Include light theme & dark theme",
+                "Config light theme & datk theme": "GetMaterialApp",
+                "Change theme dynamically": {
+                    "Get.isDarkMode": "bool",
+                    "Get.changeThemeMode()": {
+                        "ThemeMode.light": "ThemeMode",
+                        "ThemeMode.dark": "ThemeMode"
+                    },
+                    "Get.changeTheme()": "ThemeMode"
+                },
+                "Store theme in local storage": {
+                    "GetStorage()": {
+                        "read()": "",
+                        "write()": ""
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,13 +1,25 @@
 {
     "Dependency Management": {
         "Instancing methods": {
-            "Get.put()": "",
-            "Get.lazyPut()": "",
-            "Get.putAsync()": "",
-            "Get.create()": {
+            "Get.put() | Singleton": {
+                "dependency": "any Class",
+                "tag": "String?",
+                "permanent": "bool, default = false"
+            },
+            "Get.lazyPut() | Lazy create instances when needed": {
+                "dependency": "any Class",
+                "tag": "String?",
+                "fenix": "bool, default = false"
+            },
+            "Get.putAsync()": {
+                "builder": "Future<any Class> Function()",
+                "tag": "String?",
+                "permanent": "bool, default = false"
+            },
+            "Get.create() | better to use together with GetWidget": {
                 "builder": "any Class Function()",
                 "tag": "String?",
-                "permanent": "bool default=true"
+                "permanent": "bool default = true"
             },
             "Get.delete()": ""
         },
@@ -19,11 +31,11 @@
             "Get.replace()": "",
             "Get.lazyReplace()": ""
         },
-        "Binding": {
+        "Binding | Extends Bindings class": {
             "void Dependency(){}": "@override",
             "Named route": {
                 "getPages": {
-                    "BindingsBuilder()": {
+                    "BindingsBuilder() | Bindings": {
                         "void Function()": ""
                     }
                 }

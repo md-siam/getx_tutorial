@@ -1,0 +1,16 @@
+{
+    "Internationalization": {
+        "Custom class | Extends Translations": "Map<String, Map<String, String>> get keys",
+        "tr | Specific ket that will be translated": "Text('key'.tr)",
+        "@key | Translation with parameters": "trParams({'key': 'value'})",
+        "translations": "Custom class that extends Translations",
+        "locale": {
+            "Locale()": "GetMaterialApp",
+            "Get.deviceLocal | System locale": "GetMaterialApp",
+            "get.updateLocale()": "GetMaterialApp"
+        },
+        "fallbackLocale": {
+            "Locale()": "GetMaterialApp"
+        }
+    }
+}

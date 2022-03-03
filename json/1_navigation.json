@@ -1,0 +1,35 @@
+{
+    "Route Management": {
+        "Navigation without Named Routes": {
+            "Get.to(NextScreen())": "Tips:()=>NextPage() | GetMaterialApp",
+            "Get.back()": "GetMaterialApp",
+            "Get.off(NextScreen())": "GetMaterialApp",
+            "Get.offAll(NextScreen())": "GetMaterialApp"
+        },
+        "Navigation with Named Routes": {
+            "Get.toNamed(NextScreen())": "GetMaterialApp",
+            "Get.back()": "GetMaterialApp",
+            "Get.offNamed(NextScreen())": "GetMaterialApp",
+            "Get.offAllNamed(NextScreen())": "GetMaterialApp"
+        },
+        "Argument in both Routes": {
+            "Get.arguments": "dynamic | GetMaterialApp"
+        },
+        "Parameter in Named Routes": {
+            "Dynamic urls links": {
+                "/next?id=123&name=Ruize": {
+                    "Get.parameters['id']": "String",
+                    "Get.parameters['name']": "String"
+                },
+                "/next/:id": {
+                    "/next/123": {
+                        "Get.parameters['id']": "String"
+                    }
+                }
+            }
+        },
+        "Middleware": {
+            "routingCallback": ""
+        }
+    }
+}

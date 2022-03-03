@@ -1,0 +1,50 @@
+{
+    "State Management": {
+        "Simple State Management": {
+            "Declare a controller Class: extends GetxController": {
+                "update()": "Call it after update your state"
+            }
+        },
+        "✰ Reactive State Management": {
+            "Declare a Reactive Variable: Object": {
+                "Rx(Type)": {
+                    "final name = RxString('');": "Assess its value by using .value",
+                    "final isLogged = Rxbool(false);": "Assess its value by using .value",
+                    "final count = RxInt(0);": "Assess its value by using .value",
+                    "final balance = RxDouble(0.0);": "Assess its value by using .value",
+                    "final items = RxList<String>([]);": "Assess its value by using .value",
+                    "final myMap = RxMap<String, int>({});": "Assess its value by using .value"
+                },
+                "Rx<Type>": {
+                    "final name = Rx<String>('');": "Assess its value by using .value",
+                    "final isLogged = Rx<bool>(false);": "Assess its value by using .value",
+                    "final count = Rx<int>(0);": "Assess its value by using .value",
+                    "final balance = Rx<double>(0.0);": "Assess its value by using .value",
+                    "final items = Rx<List<String>>([]);": "Assess its value by using .value",
+                    "final myMap = Rx<Map<String, int>>({});": "Assess its value by using .value",
+                    "final user = Rx<User>(User())": "Custom class"
+                },
+                ".obs": {
+                    "final name = ''.obs;": "Assess its value by using .value",
+                    "final isLogged = false.obs;": "Assess its value by using .value",
+                    "final count = 0.obs;": "Assess its value by using .value",
+                    "final balance = 0.0.obs;": "Assess its value by using .value",
+                    "final number = 0.obs;": "Assess its value by using .value",
+                    "final items = <String>[].obs;": "Assess its value by using .value",
+                    "final myMap = <String, int>{}.obs;": "Assess its value by using .value",
+                    "final user = User().obs;": "Custom class"
+                }
+            }
+        },
+        "Usage": {
+            "Obx(() => Widget)": "Widget now become 'Observer'",
+            "GetX<Controller>": "Must contain 'Observer' variable",
+            "GetBuilder<Controller>": {
+                "init": "Controller?",
+                "initState": "void Function(GetBuilderState<Controller>)?",
+                "dispose": "void Function(GetBuilderState<Controller>)?",
+                "builder": "Widget Function(Controller)"
+            }
+        }
+    }
+}
