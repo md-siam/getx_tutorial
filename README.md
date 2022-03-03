@@ -8,6 +8,13 @@ In addition to state management, GetX provides easy way to manage page routes.
 
 Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
+## For JSON Viewer Pro
+
+0. [GetX](https://jsonkeeper.com/b/B4WJ)
+1. [Utils](https://jsonkeeper.com/b/K7O1)
+
+JSON files are hosted by [jsonkeeper](https://jsonkeeper.com/)
+
 ## Table of Contents
 
 <table align="center" style="margin: 0px auto;">
@@ -172,13 +179,6 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
   </tr>
 
 </table>
-
-## For JSON Viewer Pro
-
-0. [GetX](https://jsonkeeper.com/b/B4WJ)
-1. [Utils](https://jsonkeeper.com/b/K7O1)
-
-JSON files are hosted by [jsonkeeper](https://jsonkeeper.com/)
 
 ## Life Cycle of GetX Controller
 
