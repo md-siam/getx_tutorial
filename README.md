@@ -173,6 +173,10 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
 </table>
 
+## JSON View
+0. [GetX](https://jsonkeeper.com/b/B4WJ) 
+11. [Utils](https://jsonkeeper.com/b/K7O1)
+
 ## Life Cycle of GetX Controller
 
 <img align="center" src="assets/images/getx_controller_lifecycle.png"></img>
