@@ -8,7 +8,7 @@ In addition to state management, GetX provides easy way to manage page routes.
 
 Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
-## For JSON Viewer Pro
+## For [JSON Viewer Pro](https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc)
 
 0. [GetX](https://jsonkeeper.com/b/B4WJ)
 1. [Navigation](https://jsonkeeper.com/b/LU24)
