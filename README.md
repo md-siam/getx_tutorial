@@ -178,6 +178,10 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
     <td>8</td>
     <td><a href="/lib/6_themes/themes_example.dart">Change Theme</a></td>
     <td>
+        void main() async {<br>
+        &nbsp;&nbsp;await GetStorage.init();<br>
+        &nbsp;&nbsp;runApp(const MyApp());<br>
+        }<br><br>
         Create theme file<br><br>
         Config lightTheme & darkTheme<br><br>
         Change theme dynamically<br>
@@ -188,6 +192,21 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
          &nbsp;&nbsp;GetStorage() > read() & write()<br>
     </td>
     <td><img align="right" src="screenshots/change_theme.gif" height="350"></img></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td><a href="/lib/1_navigation/navigation.dart">GetX Service & GetView</a></td>
+    <td>
+        void main() async {<br>
+        &nbsp;&nbsp;WidgetsFlutterBinding.ensureInitialized();<br>
+        &nbsp;&nbsp;await initServices();<br>
+        &nbsp;&nbsp;runApp(const MyApp());<br>
+        }<br><br>
+        GetView< SettingsService><br><br>
+        late SharedPreferences _prefs;<br>
+        final counter = 0.obs;<br>
+    </td>
+    <td><img align="right" src="screenshots/getx_service_-_get_view.gif" height="350"></img></td>
   </tr>
 
 </table>

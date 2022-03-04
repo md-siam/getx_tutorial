@@ -1,10 +1,22 @@
 import 'package:flutter/material.dart';
-import 'routes.dart';
+import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
+import 'routes.dart';
+
 void main() async {
-  await GetStorage.init();
+  // await GetStorage.init();
+  WidgetsFlutterBinding.ensureInitialized();
+  await initServices(); // AWAIT SERVICES INITIALIZATION
   runApp(const MyApp());
+}
+
+Future<void> initServices() async {
+  debugPrint('starting services...');
+  // Here is where you put get_storage, hive, shared_pref initialization
+  // or moor connection, or whatever that's async.
+  await Get.putAsync(() => SettingsService().init());
+  debugPrint('services started...');
 }
 
 class MyApp extends StatelessWidget {
@@ -23,7 +35,8 @@ class MyApp extends StatelessWidget {
       // home:  GetXControllerExample(),
       //home: DependencyManagementExample(),
       //home: const TranslationExample(),
-      home: ThemesExample(),
+      //home: ThemesExample(),
+      home: ServiceExample(),
     );
   }
 }
