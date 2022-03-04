@@ -11,7 +11,17 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 ## For JSON Viewer Pro
 
 0. [GetX](https://jsonkeeper.com/b/B4WJ)
-1. [Utils](https://jsonkeeper.com/b/K7O1)
+1. [Navigation](https://jsonkeeper.com/b/LU24)
+2. [State Management](https://jsonkeeper.com/b/0OSR)
+3. [GetX Controller](https://jsonkeeper.com/b/08T2)
+4. [Dependency Management](https://jsonkeeper.com/b/ESXV)
+5. [Translation](https://jsonkeeper.com/b/1E6M)
+6. [Themes](https://jsonkeeper.com/b/9XMT)
+7. [GetxService & GetView](https://jsonkeeper.com/b/Y2JV)
+8. [GetWidget](https://jsonkeeper.com/b/4QJS)
+9. [GetConnect](https://jsonkeeper.com/b/LC6P)
+10. [GetX Pattern](https://jsonkeeper.com/b/TI0Z)
+11. [Utils](https://jsonkeeper.com/b/K7O1)
 
 JSON files are hosted by [jsonkeeper](https://jsonkeeper.com/)
 
