@@ -10,6 +10,8 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
 ## For [JSON Viewer Pro](https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc)
 
+<img align="left" src="screenshots/JSON_Viewer_pro.png" width="750"></img>
+
 0. [GetX](https://jsonkeeper.com/b/B4WJ)
 1. [Navigation](https://jsonkeeper.com/b/LU24)
 2. [State Management](https://jsonkeeper.com/b/0OSR)
@@ -23,7 +25,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 10. [GetX Pattern](https://jsonkeeper.com/b/TI0Z)
 11. [Utils](https://jsonkeeper.com/b/K7O1)
 
-JSON files are hosted by [jsonkeeper](https://jsonkeeper.com/)
+<br>JSON files are hosted by [jsonkeeper](https://jsonkeeper.com/)
 
 ## Table of Contents
 
