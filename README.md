@@ -10,7 +10,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
 ## For [JSON Viewer Pro](https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc)
 
-<img align="left" src="screenshots/JSON_Viewer_pro.png" width="580"></img>
+<img align="left" src="screenshots/JSON_Viewer_pro.png" width="650" height="350"></img>
 
 0. [GetX](https://jsonkeeper.com/b/B4WJ)
 1. [Navigation](https://jsonkeeper.com/b/LU24)
