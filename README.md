@@ -211,7 +211,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
 </table>
 
-## Directory Tree
+## Directory
 ```
 lib
 ├── 1_navigation
