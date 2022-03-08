@@ -211,6 +211,53 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
 </table>
 
+## Directory Tree
+```
+lib
+├── 1_navigation
+│   ├── navigation.dart
+│   └── next_screen.dart
+├── 10_get_pattern
+│   └── get_pattern_example.dart
+├── 2_state_management
+│   ├── reactive
+│   │   ├── reactive_state_management.dart
+│   │   └── user.dart
+│   └── simple
+│       ├── simple_state_controller.dart
+│       └── simple_state_management.dart
+├── 3_getx_controller
+│   ├── controller.dart
+│   ├── detail_page.dart
+│   └── view.dart
+├── 4_dependency_management
+│   ├── binding.dart
+│   ├── class.dart
+│   ├── controller.dart
+│   ├── detail_page.dart
+│   └── view.dart
+├── 5_translations
+│   ├── messages.dart
+│   ├── translations_controller.dart
+│   ├── translations_example.dart
+│   └── translations_view.dart
+├── 6_themes
+│   ├── themes_controller.dart
+│   ├── themes_example.dart
+│   ├── themes_view.dart
+│   └── themes.dart
+├── 7_getx_service_&_get_view
+│   ├── service_view.dart
+│   ├── servide_example.dart
+│   └── settings_service.dart
+├── 8_get_widget
+│   └── get_widget_example.dart
+├── 9_get_connect
+│   └── get_connect_examplr.dart
+├── main.dart
+└── routes.dart
+```
+
 ## Life Cycle of GetX Controller
 
 <img align="center" src="assets/images/getx_controller_lifecycle.png"></img>
