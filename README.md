@@ -217,8 +217,6 @@ lib
 ├── 1_navigation
 │   ├── navigation.dart
 │   └── next_screen.dart
-├── 10_get_pattern
-│   └── get_pattern_example.dart
 ├── 2_state_management
 │   ├── reactive
 │   │   ├── reactive_state_management.dart
@@ -254,6 +252,8 @@ lib
 │   └── get_widget_example.dart
 ├── 9_get_connect
 │   └── get_connect_examplr.dart
+├── 10_get_pattern
+│   └── get_pattern_example.dart
 ├── main.dart
 └── routes.dart
 ```
