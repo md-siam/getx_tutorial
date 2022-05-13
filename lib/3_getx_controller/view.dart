@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'controller.dart';
-import 'detail_page.dart';
 
 class GetXControllerExample extends StatelessWidget {
   GetXControllerExample({Key? key}) : super(key: key);

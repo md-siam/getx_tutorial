@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'binding.dart';
-import 'class.dart';
 import 'controller.dart';
 import 'detail_page.dart';
 

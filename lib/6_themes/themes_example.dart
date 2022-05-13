@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'themes.dart';
-import 'themes_view.dart';
 import 'themes_controller.dart';
+import 'themes_view.dart';
 
 class ThemesExample extends StatelessWidget {
   ThemesExample({Key? key}) : super(key: key);

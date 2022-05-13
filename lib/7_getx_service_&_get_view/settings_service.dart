@@ -15,7 +15,7 @@ class SettingsService extends GetxService {
   }
 
   Future<void> incrementCounter() async {
-    counter.value = _prefs.getInt('counter')! + 1;
+    counter.value = (_prefs.getInt('counter')! + 1);
     _prefs.setInt('counter', counter.value);
   }
 
