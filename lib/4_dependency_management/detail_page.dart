@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'class.dart';
 import 'controller.dart';
 
 class DetailPage extends StatelessWidget {

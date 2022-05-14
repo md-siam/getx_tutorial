@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'next_screen.dart';
 
-class GetNavigation extends StatelessWidget {
-  const GetNavigation({Key? key}) : super(key: key);
+class MyGetNavigation extends StatelessWidget {
+  const MyGetNavigation({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class GetNavigation extends StatelessWidget {
       initialRoute: '/',
       // unknownRoute: GetPage(name: '/notFound', page() => UnknownPage())
       getPages: [
-        GetPage(name: '/', page: () => const GetNavigation()),
+        GetPage(name: '/', page: () => const MyGetNavigation()),
         GetPage(name: '/next', page: () => const NextScreen()),
       ],
       // If you want to listen Get events to trigger actions,

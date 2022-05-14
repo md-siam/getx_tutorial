@@ -11,7 +11,7 @@ class ServiceExample extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: ServiceView(),
+      home: const ServiceView(),
     );
   }
 }

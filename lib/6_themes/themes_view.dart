@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'themes.dart';
 import 'themes_controller.dart';
 
 class ThemesView extends StatelessWidget {

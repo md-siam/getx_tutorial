@@ -27,15 +27,15 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'GetX Tutorial',
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      //home: const GetNavigation(),
+      //home: const MyGetNavigation(),
       //home: ReactiveStateManagement(),
       //home: const SimpleStateManagement(),
-      //home:  GetXControllerExample(),
-      // home:  GetXControllerExample(),
-      //home: DependencyManagementExample(),
+      //home: GetXControllerExample(),
+      //home:   GetXControllerExample(),
+      //home:  DependencyManagementExample(),
       //home: const TranslationExample(),
       //home: ThemesExample(),
-      home: const ServiceExample(),
+      //home: const ServiceExample(),
     );
   }
 }
