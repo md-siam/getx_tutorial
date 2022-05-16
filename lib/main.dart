@@ -31,11 +31,11 @@ class MyApp extends StatelessWidget {
       //home: ReactiveStateManagement(),
       //home: const SimpleStateManagement(),
       //home: GetXControllerExample(),
-      //home:   GetXControllerExample(),
-      //home:  DependencyManagementExample(),
+      //home: GetXControllerExample(),
+      //home: DependencyManagementExample(),
       //home: const TranslationExample(),
       //home: ThemesExample(),
-      //home: const ServiceExample(),
+      home: const ServiceExample(),
     );
   }
 }

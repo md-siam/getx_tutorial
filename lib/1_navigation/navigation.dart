@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
 import 'next_screen.dart';
 
 class MyGetNavigation extends StatelessWidget {
