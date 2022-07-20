@@ -1,3 +1,8 @@
+<img src="screenshots/badges/built-with-love.svg" height="28px"/>&nbsp;&nbsp;
+<img src="screenshots/badges/flutter-dart.svg" height="28px" />&nbsp;&nbsp;
+<a href="https://choosealicense.com/licenses/mit/" target="_blank"><img src="screenshots/badges/license-MIT.svg" height="28px" /></a>&nbsp;&nbsp;
+<img src="screenshots/badges/dart-null_safety-blue.svg" height="28px"/>
+
 # GteX Tutorial - [Udemy](https://www.udemy.com/course/2022-dart-flutter-master-class-zero-to-hero/)
 
 <img align="right" src="assets/playstore.png" height="190"></img>
@@ -10,7 +15,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
 
 ## For [JSON Viewer Pro](https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc)
 
-<img align="left" src="screenshots/JSON_Viewer_pro.png" width="600" height="330"></img>
+<img align="left" src="screenshots/images/JSON_Viewer_pro.png" width="600" height="330"></img>
 
 0. [GetX](https://jsonkeeper.com/b/B4WJ)
 1. [Navigation](https://jsonkeeper.com/b/LU24)
@@ -48,7 +53,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
         Get.offNamed()<br>
         Get.offAllNamed()
     </td>
-    <td><img align="right" src="screenshots/navigation.gif" height="350"></img></td>
+    <td><img align="right" src="screenshots/images/navigation.gif" height="350"></img></td>
   </tr>
   <tr>
     <td>2</td>
@@ -64,7 +69,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
         Obx(() =>Text('${count.value}'));<br><br>
         onPressed: () => increment()  
     </td>
-    <td><img align="right" src="screenshots/reactive_state_management.gif" height="350"></img></td>
+    <td><img align="right" src="screenshots/images/reactive_state_management.gif" height="350"></img></td>
   </tr>
   <tr>
     <td>3</td>
@@ -77,7 +82,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
         init: Controller(),<br>
         builder: (controller) => Text('${controller.counter}')
     </td>
-    <td><img align="right" src="screenshots/simple_state_management.gif" height="350"></img></td>
+    <td><img align="right" src="screenshots/images/simple_state_management.gif" height="350"></img></td>
   </tr>
   <tr>
     <td>4</td>
@@ -103,7 +108,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
          &nbsp;&nbsp;&nbsp;&nbsp; interval(count, (_))<br>
          &nbsp;&nbsp; }
     </td>
-    <td><img align="right" src="screenshots/reactive_state_controller.gif" height="350"></img></td>
+    <td><img align="right" src="screenshots/images/reactive_state_controller.gif" height="350"></img></td>
   </tr>
   <tr>
     <td>5</td>
@@ -124,7 +129,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
          &nbsp;&nbsp;&nbsp;&nbsp; update();<br>
          &nbsp;&nbsp; }<br>
     </td>
-    <td><img align="right" src="screenshots/simple_state_controller.gif" height="350"></img></td>
+    <td><img align="right" src="screenshots/images/simple_state_controller.gif" height="350"></img></td>
   </tr>
   <tr>
     <td>6</td>
@@ -152,7 +157,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
          &nbsp;&nbsp;onlyBuilder<br>
          &nbsp;&nbsp;keepFactory<br>
     </td>
-    <td><img align="right" src="screenshots/dependency_management.gif" height="350"></img></td>
+    <td><img align="right" src="screenshots/images/dependency_management.gif" height="350"></img></td>
   </tr>
   <tr>
     <td>7</td>
@@ -172,7 +177,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
         fallbackLocale<br>
          &nbsp;&nbsp;Locale()<br>
     </td>
-    <td><img align="right" src="screenshots/internationalization.gif" height="350"></img></td>
+    <td><img align="right" src="screenshots/images/internationalization.gif" height="350"></img></td>
   </tr>
   <tr>
     <td>8</td>
@@ -191,7 +196,7 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
         Store them in local storage<br>
          &nbsp;&nbsp;GetStorage() > read() & write()<br>
     </td>
-    <td><img align="right" src="screenshots/change_theme.gif" height="350"></img></td>
+    <td><img align="right" src="screenshots/images/change_theme.gif" height="350"></img></td>
   </tr>
   <tr>
     <td>9</td>
@@ -206,12 +211,13 @@ Video on [YouTube](https://www.youtube.com/watch?v=vIIBp6xJJeA)
         late SharedPreferences _prefs;<br>
         final counter = 0.obs;<br>
     </td>
-    <td><img align="right" src="screenshots/getx_service_-_get_view.gif" height="350"></img></td>
+    <td><img align="right" src="screenshots/images/getx_service_-_get_view.gif" height="350"></img></td>
   </tr>
 
 </table>
 
 ## Directory
+
 ```
     lib/
     ├── 1_navigation/
