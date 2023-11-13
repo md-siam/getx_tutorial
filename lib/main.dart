@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import 'routes.dart';
+import 'package:getx_tutorial/routes.dart';
 
 void main() async {
   // await GetStorage.init();
@@ -26,8 +25,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'GetX Tutorial',
-      theme: ThemeData(primarySwatch: Colors.deepPurple),
-      //home: const MyGetNavigation(),
+      theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
+        useMaterial3: true,
+      ),
+      home: const MyGetNavigation(),
       //home: ReactiveStateManagement(),
       //home: const SimpleStateManagement(),
       //home: GetXControllerExample(),
@@ -35,7 +37,8 @@ class MyApp extends StatelessWidget {
       //home: DependencyManagementExample(),
       //home: const TranslationExample(),
       //home: ThemesExample(),
-      home: const ServiceExample(),
+      //home: const ServiceExample(),
     );
   }
 }
+
